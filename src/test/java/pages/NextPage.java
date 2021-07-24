@@ -30,12 +30,10 @@ public class NextPage extends CommonLibs {
 
 			Reporter.log("Loop has been started !!!", true);
 			boolean hasNextPage = true;
-
-			
-				List<WebElement> enabled_next_page_btn = driver
-						.findElements(By.xpath("//span[@class='cssbreadcrumbitem'][contains(text(), 'Next')]"));
 				
 				while (hasNextPage) {
+					List<WebElement> enabled_next_page_btn = driver
+						.findElements(By.xpath("//span[@class='cssbreadcrumbitem'][contains(text(), 'Next')]"));
 					if (enabled_next_page_btn.size() > 0) {
 						enabled_next_page_btn.get(0).click();
 						//waitTime(Constants.waitforNextPage);
