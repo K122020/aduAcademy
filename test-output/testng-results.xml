@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully execute the Test1]]>
+    </line>
+    <line>
+      <![CDATA[Successfully execute the Test2]]>
+    </line>
+    <line>
+      <![CDATA[Loop has been started !!!]]>
+    </line>
+    <line>
+      <![CDATA[Successfully execute the Test3]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85563" started-at="2021-07-24T18:48:40Z" finished-at="2021-07-24T18:50:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85563" started-at="2021-07-24T18:48:40Z" finished-at="2021-07-24T18:50:06Z">
+      <class name="testCases.navigateChapter">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testCases.navigateChapter@16d04d3d]" name="launchBrowser" is-config="true" duration-ms="9119" started-at="2021-07-24T18:48:40Z" finished-at="2021-07-24T18:48:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="preTestCase()[pri:0, instance:testCases.navigateChapter@16d04d3d]" name="preTestCase" is-config="true" duration-ms="1" started-at="2021-07-24T18:48:49Z" finished-at="2021-07-24T18:48:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully execute the Test1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preTestCase -->
+        <test-method status="PASS" signature="doLogin()[pri:1, instance:testCases.navigateChapter@16d04d3d]" name="doLogin" duration-ms="50863" started-at="2021-07-24T18:48:49Z" description="Login to the course" finished-at="2021-07-24T18:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="postTestcase()[pri:0, instance:testCases.navigateChapter@16d04d3d]" name="postTestcase" is-config="true" duration-ms="0" started-at="2021-07-24T18:49:40Z" finished-at="2021-07-24T18:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestcase -->
+        <test-method status="PASS" signature="preTestCase()[pri:0, instance:testCases.navigateChapter@16d04d3d]" name="preTestCase" is-config="true" duration-ms="1" started-at="2021-07-24T18:49:40Z" finished-at="2021-07-24T18:49:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully execute the Test2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preTestCase -->
+        <test-method status="PASS" signature="navNextPage()[pri:2, instance:testCases.navigateChapter@16d04d3d]" name="navNextPage" duration-ms="23885" started-at="2021-07-24T18:49:40Z" description="Click on next page until last page." finished-at="2021-07-24T18:50:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Loop has been started !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navNextPage -->
+        <test-method status="PASS" signature="postTestcase()[pri:0, instance:testCases.navigateChapter@16d04d3d]" name="postTestcase" is-config="true" duration-ms="0" started-at="2021-07-24T18:50:04Z" finished-at="2021-07-24T18:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestcase -->
+        <test-method status="PASS" signature="preTestCase()[pri:0, instance:testCases.navigateChapter@16d04d3d]" name="preTestCase" is-config="true" duration-ms="1" started-at="2021-07-24T18:50:04Z" finished-at="2021-07-24T18:50:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully execute the Test3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preTestCase -->
+        <test-method status="PASS" signature="logOut()[pri:3, instance:testCases.navigateChapter@16d04d3d]" name="logOut" duration-ms="300" started-at="2021-07-24T18:50:04Z" description="Signout from the application" finished-at="2021-07-24T18:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="postTestcase()[pri:0, instance:testCases.navigateChapter@16d04d3d]" name="postTestcase" is-config="true" duration-ms="0" started-at="2021-07-24T18:50:04Z" finished-at="2021-07-24T18:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestcase -->
+        <test-method status="PASS" signature="doQuit()[pri:0, instance:testCases.navigateChapter@16d04d3d]" name="doQuit" is-config="true" duration-ms="1302" started-at="2021-07-24T18:50:04Z" finished-at="2021-07-24T18:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doQuit -->
+      </class> <!-- testCases.navigateChapter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
